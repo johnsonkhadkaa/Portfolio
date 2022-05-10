@@ -29,15 +29,13 @@ const Navbar = () => {
             <li>
               <a href="#">Contact</a>
             </li>
-            <li>
-              <a href="#">SignUp</a>
-            </li>
+            
           </ul>
         </div>
 
         <div className="social-media">
           <ul className="social-media-desktop">
-            <li>
+                      <li>
               <a href="#">
                 <FaFacebookSquare />
               </a>
@@ -51,7 +49,7 @@ const Navbar = () => {
               <a href="#">
                 <FaYoutubeSquare />
               </a>
-            </li>
+            </li> 
           </ul>
         </div>
       </nav>
