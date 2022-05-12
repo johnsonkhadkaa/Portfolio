@@ -1,8 +1,8 @@
 import React from "react";
 import {
+  FaFacebookMessenger,
   FaFacebookSquare,
   FaInstagramSquare,
-  FaYoutubeSquare,
 } from "react-icons/fa";
 import "./Navbar.css";
 
@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="logo">
           <h2>
             <a href="#">
-              <span>M</span>y<span>{" "}P</span>rofile{" "}
+              <span>M</span>y<span> P</span>rofile{" "}
             </a>
           </h2>
         </div>
@@ -29,15 +29,14 @@ const Navbar = () => {
             <li>
               <a href="#">Contact</a>
             </li>
-            
           </ul>
         </div>
 
         <div className="social-media">
           <ul className="social-media-desktop">
-                      <li>
+            <li>
               <a href="#">
-                <FaFacebookSquare />
+                <FaFacebookMessenger />
               </a>
             </li>
             <li>
@@ -47,9 +46,9 @@ const Navbar = () => {
             </li>
             <li>
               <a href="#">
-                <FaYoutubeSquare />
+                <FaFacebookSquare/>
               </a>
-            </li> 
+            </li>
           </ul>
         </div>
       </nav>
