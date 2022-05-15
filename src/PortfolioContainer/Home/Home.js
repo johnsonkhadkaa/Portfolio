@@ -17,8 +17,8 @@ const home = () => {
           <Profile />
           <Footershape />
           {/* <Content /> */}
-          <About />
-          <Contact />
+          {/* <About />
+          <Contact /> */}
           <Footer />
         </div>
       </div>

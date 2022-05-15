@@ -1,7 +1,7 @@
 .about-header{
-    font : white;
-    font-size: larger;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    text-align: center;
+}
+.about-header .h4{
+    color: white;
     text-align: center;
 }
