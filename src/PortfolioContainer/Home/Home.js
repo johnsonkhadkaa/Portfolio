@@ -6,23 +6,23 @@ import About from "../About/About";
 import Contact from "../Contact/Contact";
 import "./Home.css";
 import Footer from "../Footer/Footer";
+import Content from "../Contents/Content";
 
 const home = () => {
   return (
     <>
-     <div className="home-footer">
-    <div className="home-container">
-      
-      <Navbar />
-      <Profile /> 
-      <About />
-      <Contact />
-      <Footershape /> 
-     <Footer/>
-     </div>
-     </div>
-     </>
-     
+      <div className="home-footer">
+        <div className="home-container">
+          <Navbar />
+          <Profile />
+          <Footershape />
+          {/* <Content /> */}
+          <About />
+          <Contact />
+          <Footer />
+        </div>
+      </div>
+    </>
   );
 };
 
