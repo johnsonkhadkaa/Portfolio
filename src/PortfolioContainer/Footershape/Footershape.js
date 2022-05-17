@@ -1,17 +1,16 @@
-
 import React from "react";
-import './Footershape.css';
+import "./Footershape.css";
 
 const Footershape = () => {
   return (
-   
     <div className="footer-container">
       <div className="footer-parent">
         <img
-          src={require("../../assets/Home/shape-bg.png")} alt="Connection Error"/>
+          src={require("../../assets/Home/shape-bg.png")}
+          alt="Connection Error"
+        />
       </div>
     </div>
-   
   );
 };
 

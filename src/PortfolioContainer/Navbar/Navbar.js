@@ -5,6 +5,7 @@ import {
   FaInstagramSquare,
 } from "react-icons/fa";
 import "./Navbar.css";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -21,13 +22,13 @@ const Navbar = () => {
         <div className="menu-link">
           <ul>
             <li>
-              <a href="#">Home</a>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <a href="#">About</a>
+              <NavLink to="/about">About</NavLink>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <NavLink to="/contact">Contact</NavLink>
             </li>
           </ul>
         </div>
@@ -46,14 +47,12 @@ const Navbar = () => {
             </li>
             <li>
               <a href="#">
-                <FaFacebookSquare/>
+                <FaFacebookSquare />
               </a>
             </li>
           </ul>
         </div>
       </nav>
-
-      <section className=""></section>
     </>
   );
 };

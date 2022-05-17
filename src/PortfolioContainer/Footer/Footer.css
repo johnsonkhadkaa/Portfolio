@@ -7,6 +7,14 @@
   color:black;
 }
 
+
+.footer-header{
+  background-color: gainsboro;
+}
+
+.footer-end{
+  background:gray
+}
 /* .footer-main {
   position: absolute;
   left: 0;
